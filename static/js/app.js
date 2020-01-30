@@ -11,7 +11,7 @@ d3.selectAll("#selDataset").on("change", updater);
 
 // get data
 function getData(id) {
-    d3.json('/samples.json').then(function(data) {
+    d3.json('https://aydannankoosingh.github.io/belly-button-biodiversity/samples.json').then(function(data) {
     
         var ind = data.names.indexOf(id)
         var otu_int = data.samples[ind].otu_ids.slice(0, 10);
