@@ -1,4 +1,4 @@
-sampleData = 'https://aydannankoosingh.github.io/belly-button-biodiversity/samples.json'
+var sampleData = 'https://aydannankoosingh.github.io/belly-button-biodiversity/samples.json'
 
 
 
