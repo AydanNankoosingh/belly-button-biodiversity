@@ -1,4 +1,6 @@
-sampleData = 'https://github.com/AydanNankoosingh/belly-button-biodiversity/blob/master/samples.json'
+sampleData = 'https://aydannankoosingh.github.io/belly-button-biodiversity/samples.json'
+
+
 
 // init function -- pull up 940
 function init() {
