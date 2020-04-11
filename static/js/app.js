@@ -31,7 +31,7 @@ function getData(id) {
 
 // build dropdown
 function buildDrop() {
-    d3.json('/samples.json').then(function(data) {
+    d3.json(sampleData).then(function(data) {
         var dropDown = d3.select('#selDataset');
         data.names.forEach(function(item) { dropDown.append('option')
             .attr('value', item)
